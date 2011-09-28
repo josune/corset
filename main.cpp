@@ -5,4 +5,3 @@ int main(void) {
   for(; scanf("%d",&x) > 0 && x != 42; printf("%d\n", x); 
   return 1; 
 } 
-pp
