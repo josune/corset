@@ -1,7 +1,10 @@
-import std.c.stdio;
+#include <stdio.h> 
  
-int main() {
-    int x;
-    while (scanf("%d", &x) && x!=42) printf ("%d\n", x);
-    return 0;
+int main(void){  
+ 
+  int liczba;  
+ 
+  for ( ; (scanf("%d",&liczba) > 0) && (liczba != 42) ; printf("%d\n", liczba) );  
+ 
+  return 0;
 }
