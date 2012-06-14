@@ -1,3 +1,3 @@
 #include <stdio.h>
-int main(void){ int liczba; for ( ; (scanf("%d",&liczba) > 0) && (liczba != 42) ; printf("%d\n", liczba) ); return 0;
+int main(void){ int x; for ( ; (scanf("%d",&x) > 0) && (x != 42) ; printf("%d\n", x) ); return 0;
 }
